@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ScreenController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER" />
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <ImageView fitHeight="513.0" fitWidth="905.0" layoutX="-8.0" layoutY="-13.0" pickOnBounds="true">
+               <image>
+                  <Image url="@istockphoto-680890628-170667a.jpg" />
+               </image>
+            </ImageView>
+            <ToggleButton fx:id="start" layoutX="388.0" layoutY="361.0" mnemonicParsing="false" onAction="#startApp" prefHeight="64.0" prefWidth="158.0" text="Start" AnchorPane.bottomAnchor="74.0" AnchorPane.leftAnchor="388.0" AnchorPane.rightAnchor="392.0" AnchorPane.topAnchor="361.0" />
+            <ListView fx:id="previewList" layoutX="-3.0" layoutY="72.0" orientation="HORIZONTAL" prefHeight="149.0" prefWidth="895.0" />
+            <Label layoutX="272.0" layoutY="22.0" prefHeight="30.0" prefWidth="396.0" text="These are our creations " textFill="WHITE">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="321.0" layoutY="304.0" text="Let's start yours!" textFill="WHITE">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="28.0" />
+               </font>
+            </Label>
+      </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+    </AnchorPane>
+  </children>
+</VBox>
