@@ -25,7 +25,7 @@
               <items>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="346.0">
                      <children>
-                        <ImageView fx:id="imageChosen2" fitHeight="300.0" fitWidth="360.0" layoutX="-3.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="imageChosenUsed" fitHeight="300.0" fitWidth="360.0" layoutX="-3.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@1_c94SpnDXD8imHLUW0fl-ng.jpeg" />
                            </image></ImageView>
@@ -42,8 +42,8 @@
                               </ImageView>
                               <ToolBar layoutX="51.0" layoutY="53.0" orientation="VERTICAL" prefHeight="143.0" prefWidth="158.0">
                                  <items>
-                                    <RadioButton fx:id="increaseContrast" mnemonicParsing="false" onAction="#setListIncrease" prefHeight="65.0" prefWidth="160.0" text="Increse contrast" underline="true" />
-                                    <RadioButton fx:id="decreaseContrast" mnemonicParsing="false" onAction="#setListDecrease" prefHeight="47.0" prefWidth="160.0" text="Decrese contrast" underline="true" />
+                                    <RadioButton fx:id="increaseContrast" mnemonicParsing="false" onAction="#setListIncrease" prefHeight="65.0" prefWidth="160.0" text="Increase contrast" underline="true" />
+                                    <RadioButton fx:id="decreaseContrast" mnemonicParsing="false" onAction="#setListDecrease" prefHeight="47.0" prefWidth="160.0" text="Decrease contrast" underline="true" />
                                  </items>
                               </ToolBar>
                               <ChoiceBox fx:id="choiceBox" layoutX="51.0" layoutY="235.0" prefWidth="150.0" />
